@@ -19,7 +19,8 @@
         "buildBrowserModule": "node dev/browserify.js",
         "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
         "lint": "atropa-jslint ./src/atropa-objects.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-objects.js ./src/atropa-objects.js"
+        "srcFormat": "atropa-jsformatter ./src/atropa-objects.js ./src/atropa-objects.js",
+        "pretest": "node dev/browserify.js"
     },
     "homepage": "https://github.com/matthewkastor/atropa-objects/",
     "bugs": "https://github.com/matthewkastor/atropa-objects/issues",
