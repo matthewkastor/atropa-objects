@@ -1,6 +1,6 @@
 {
     "name": "atropa-objects",
-    "version": "2013.010.1-212",
+    "version": "2013.10.13",
     "description": "JavaScript utilities for handling objects.",
     "main": "./src/atropa-objects.js",
     "directories": {
