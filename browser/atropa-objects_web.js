@@ -168,7 +168,6 @@ var atropa = require('atropa-header');
  *  ☭ Hial Atropa!! ☭
  * @version 20130121
  * @namespace Utilities for handling objects.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.objects">tests</a>
  */
 atropa.objects = {};
 /**
