@@ -1,6 +1,6 @@
 {
   "name": "atropa-objects",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "JavaScript utilities for handling objects.",
   "main": "./src/atropa-objects.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-objects.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-objects.js ./src/atropa-objects.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-objects/",
   "bugs": "https://github.com/matthewkastor/atropa-objects/issues",
